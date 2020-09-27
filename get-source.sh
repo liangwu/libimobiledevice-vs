@@ -1,12 +1,12 @@
-git clone --single-branch --branch msvc/master https://github.com/libimobiledevice-win32/libplist
-git clone --single-branch --branch msvc/master https://github.com/libimobiledevice-win32/libusbmuxd
-git clone --single-branch --branch msvc/master https://github.com/libimobiledevice-win32/libimobiledevice
-git clone --single-branch --branch msvc/master https://github.com/libimobiledevice-win32/libideviceactivation
-git clone --single-branch --branch msvc/master https://github.com/libimobiledevice-win32/ideviceinstaller
-git clone --single-branch --branch msvc/master https://github.com/libimobiledevice-win32/libirecovery
-git clone --single-branch --branch msvc/master https://github.com/libimobiledevice-win32/idevicerestore
-git clone --single-branch --branch master-msvc https://github.com/libimobiledevice-win32/usbmuxd
-git clone --single-branch --branch msvc/master https://github.com/libimobiledevice-win32/ios-webkit-debug-proxy
+git clone --single-branch --branch msvc/master git@github.com:liangwu/libplist.git
+git clone --single-branch --branch msvc/master git@github.com:liangwu/libusbmuxd.git
+git clone --single-branch --branch msvc/master git@github.com:liangwu/libimobiledevice.git
+git clone --single-branch --branch msvc/master git@github.com:liangwu/libideviceactivation.git
+git clone --single-branch --branch msvc/master git@github.com:liangwu/ideviceinstaller.git
+git clone --single-branch --branch msvc/master git@github.com:liangwu/libirecovery.git
+git clone --single-branch --branch msvc/master git@github.com:liangwu/idevicerestore.git
+git clone --single-branch --branch master-msvc git@github.com:liangwu/usbmuxd.git
+git clone --single-branch --branch msvc/master git@github.com:liangwu/ios-webkit-debug-proxy.git
 
 # git -C is not available on CentOS 7
 if [ -f /etc/redhat-release ] && [ $(rpm -q --queryformat '%{VERSION}' centos-release) == "7" ]
