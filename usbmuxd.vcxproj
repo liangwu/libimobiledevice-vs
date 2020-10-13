@@ -46,19 +46,10 @@
     <ClInclude Include="usbmuxd\src\winsock2-ext.h" />
   </ItemGroup>
   <ItemGroup>
-    <ResourceCompile Include="usbmuxd.rc">
-      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">VALUE "CompanyName", "Beijing Guanshanjiyue Technology Co., Ltd"
-            VALUE "FileDescription", "Wormhole"
-            VALUE "FileVersion", VERSION_RC_STR
-            VALUE "InternalName", "Wormhole.exe"
-            VALUE "LegalCopyright", "Copyright (C) Wormhole 2020-2030. All rights reserved."
-            VALUE "OriginalFilename", "Wormhole.exe"
-            VALUE "ProductName", "Wormhole"
-            VALUE "ProductVersion", VERSION_RC_STR</AdditionalOptions>
-    </ResourceCompile>
+    <Image Include="logo.ico" />
   </ItemGroup>
   <ItemGroup>
-    <Image Include="logo.ico" />
+    <ResourceCompile Include="usbmuxd.rc" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{E775C6D0-C295-4D09-9ADC-60FC95526993}</ProjectGuid>
